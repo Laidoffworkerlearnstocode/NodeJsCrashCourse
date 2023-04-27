@@ -1,12 +1,10 @@
 // Modules
 
-const john = 'john';
-const peter = 'peter';
+// const _names = require('./1stModule');
+// const _sayHi = require('./2ndModule');
 
-const sayHi = (name) => {
-    console.log(`Hello there ${name}`);
-}
+// nameArr = Object.values(_names);
 
-sayHi('Susan');
-sayHi(john);
-sayHi(peter);
+// nameArr.forEach(name => _sayHi.sayHi(name));
+
+require('./3rdModule');
